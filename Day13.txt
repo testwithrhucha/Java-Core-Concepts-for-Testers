@@ -1,0 +1,63 @@
+Day-13
+-------
+this keyword
+----
+
+types of varaibles
+------------------
+Class variables/Instance varaibles
+Local variables
+
+
+this keyword represents class name.
+
+Encapsulation
+---------
+1) All variables should be private
+2) for every variable there should be 2 methods( get & Set)
+3) varaibles can be operated only through methods.
+
+setters and getters
+
+
+static keyword
+----
+1) static methods can access static stuff directly ( without object).
+2) static methods can access non-static stuff through object.
+3) non-static methods can access everything directly.
+
+
+System.out.println("welcome")
+
+
+class Test
+{
+static String s="welcome";
+}
+
+Test.s.lenght()
+
+
+
+class System
+{
+    static PrintStream out;
+}
+
+
+System.out.print()
+System.out.println()
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+Day-19
+-------
+Exception handling
+---------------
+Exception is an event which will cause program termination.
+
+Errors
+----
+1) Syntax
+2) Logical
+
+Types of exceptions
+-------
+1) Checked exceptions
+The exceptions which are identified by java compiler.
+	Ex: InteruptedException
+     		FileNotFound
+		IOException etc...
+
+2) Un-checked exceptions
+
+The exceptions which are not identified by java compiler.
+Ex:
+		ArithmeticException
+		NullPointerException
+		ArrayIndexOutOfBoundsException etc...
+			etc...
+
+try
+{
+
+}
+catch(Exception name)
+{
+
+}
+finally
+{
+
+}
+
+
+If you do not knw what type of exception comes then you have 2 solutions to handle.
+
+1) multiple catch blocks
+2) by specifying Exception class in catch.
+
+finally block
+-------------
+case1: Exception occured, catch block handled ---> finally block will execute
+case2: Exception occured, catch block NOT handled --> finally block will execute
+case3: Exception does not occured, catch block ignored ----> finally block will execute
+
+try
+{
+open connection with DB.
+}
+catch()
+{
+Handle exception
+}
+finally
+{
+close connection
+}
+
+
+checked exceptions can be handled in 2 ways
+----
+using try..catch
+throws
+
+throw
+
+
+
+
+
+
+

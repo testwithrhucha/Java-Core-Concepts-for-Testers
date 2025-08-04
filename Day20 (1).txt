@@ -1,0 +1,56 @@
+Day 20
+------
+Collections
+--------
+collection - To represent group of elements/objects/data into single entity
+
+"Collection" is an interface available in java.util
+
+ArrayList - is class which is implemented List interface
+-----------------------------
+1) Heterogenious data - allowed
+2) Insertion order- preserved(Index)
+3) Duplicate elements -- allowed
+4) multiple nulls -- allowed
+
+
+String m1()
+{
+}
+String x=m1()
+
+
+Iterator iterator()
+{
+----
+}
+
+
+Iterator it=mylist.iterator();
+
+
+HashSet   - a class implemented Set interface
+---------
+1) Heterogenios data ---> allowed
+2) Insertion order  --> Not preserved (Index not supported)
+3) Duplicate elements --> Not Allowed
+4) Multiple nulls Not allowed/ only single null is allowed
+
+
+HashMap - a class implemented Map interface
+--------------
+Data can be stored in the form of key, value pairs.
+Key is unique. But we can have duplicate values.
+Insertion order not preserved(Index not followed)
+
+Collections videos: https://www.youtube.com/playlist?list=PLUDwpEzHYYLu9-xrx5ykNH8wmN1C1qClk
+
+
+
+Assignment
+-------------
+1) Create Employee class which contains id and name.
+2) Create Group class which contains groupID and employees list.
+3) sort employee names.
+
+

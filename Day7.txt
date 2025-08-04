@@ -1,0 +1,40 @@
+Day-7
+-------
+How to take input from keyboard/ at run time?
+
+Scanner
+
+Examples
+-----------
+1) Seaching an element in array
+2) Find how many times a number is repeated..
+3) Find number of even's and odd's in array
+4) Sort elements in array
+5) Reverse an array
+
+
+Assingments
+-----------
+1) Sorting elements  using  for loop
+a={50,20,40,10,100}
+after sorting 10 20 40 50 100
+
+Ref Links: 
+https://www.youtube.com/watch?v=cJ2eMUiCFy4
+https://www.youtube.com/watch?v=3PLtvTUOCpM
+
+2) Find Missing in Number in array
+
+a={1,4,5,3}     
+* numbers should be in range
+* should not have duplicates
+* no need of sorting order
+
+logic:  1+2+4+5=12 (sum1)
+        1+2+3+4+5=15 (sum2)
+        sum2-sum1 = missing number
+
+Reference: https://youtu.be/Uywn0YzX8OQ
+
+3) Find largest & lowest number in array
+https://www.youtube.com/watch?v=Jrr0bNcPFgo

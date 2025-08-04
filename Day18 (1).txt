@@ -1,0 +1,30 @@
+Day-18
+---------
+Type casting
+---------
+Converting type of data.
+
+types
+-----
+1) Upcasting / widening
+2) Downcasting /Narrowing
+
+
+Child c=new Child();
+Parent p=new Child();
+
+
+Type casting Rules
+------------------
+
+Syntax:   A b=(C) d;
+
+Rule 1 : conversion is valid or not
+The type of 'd' and 'c' must have some relationship(either parent to child or child to parent or same type).
+		
+Rule2 : assignment is valid or not
+'C' must be either same or child of 'A'.
+		
+Rule 3
+The underlying object type of 'd' must be either same or child of 'C'.
+

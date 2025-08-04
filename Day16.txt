@@ -1,0 +1,46 @@
+Day-16
+-------
+Data abstraction
+--------------
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+
+abstract class
+interface
+
+Interface
+-----
+1) An interface is a blue print of class.
+2) Interface contains final & Static variables.
+3) Interface contains abstract methods.( also allowed default methods & Static methods from java8 onwards)
+4) An abstract method is a method contains signature but not body(Un-implemented method).
+5) Methods in interface are public.
+6) Interface supports the functionality of multiple inheritance.
+7) We can define interface with interface keyword.
+8) A class extends another class, an interface extends another interface but a class implements an interface.
+9) We can create Object reference for Interface but we cannot instantiate interface.
+
+
+interface I
+{
+varaibles
+methods
+}
+
+
+void m()
+{
+body
+}
+
+void m();
+
+
+
+public
+protected
+default
+private
+
+
+
+multiple inheritance using interface

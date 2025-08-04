@@ -1,0 +1,65 @@
+Day-9
+--------
+1) reverse a string.
+
+s="welcome"
+reverse string = emoclew
+
+
+2) String comparison
+
+== used for comparing objects
+equals() used for comparing values of objects
+
+equals() - recomended method to compare string.
+
+Immutable  - we cannot change
+Mutable  - we can change
+
+String  - immutable , canot change
+StringBuffer - mutable , can change
+StringBuilder -- mutable, can change
+
+
+Assignments
+----------
+1) Check String is palindrome or not
+
+String s= "MADAM"
+ Output: palindrom
+String s="Welcome"
+	output: Not palindrom
+
+Ref link: https://www.youtube.com/watch?v=8BlUi4-4N4E
+
+2) Remove Junk or Special Characters in String
+
+wel&&^^%%*())*come
+output: welcome
+
+Ref link: https://youtu.be/x0SghWs1bsE
+
+3) How To Remove White Spaces in a String
+
+we l co m e
+output: welcome
+
+Ref link: https://youtu.be/-Miz0uInWVw
+
+4) Count Occurrences of a Character in a String
+Ref link: https://youtu.be/jbGxTi0bi7c
+
+
+5) Count Words in a String
+Ref link: https://youtu.be/dTWfNdfpr_g
+
+
+StringBuilder s = new StringBuilder("welcome");
+string b =s.reverse();
+in this case b =emoclew , s = emoclew as s is mutable ?
+
+
+
+
+
+

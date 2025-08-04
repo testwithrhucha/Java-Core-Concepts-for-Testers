@@ -1,0 +1,69 @@
+Day-17
+---------
+Wrapper classes
+--------------
+
+int a[]=int a[5]
+
+ArrayList <Integer> ar=new ArrayList<Integer>()
+
+ar[0]=100;
+
+
+int  --- Integer
+float  --- Float
+double --- Double
+char -- Character
+boolean --- Boolean
+
+The wrapper class - Converts primitive into object and object into primitive.
+
+Auto boxing  ( Primitive --> Object )
+Un boxing    ( Object --> Primitive)
+
+
+int x=100;
+double d=10.5;
+
+
+Integer x=100;
+Double d=10.5
+String s="welcome"
+
+
+String s1="welcome";   // cannot convert to number
+
+String s1="150";   // can convert to number
+String s2="160"    // can cnvert to number
+
+Scenario 1:  String ---> int, double, bool, char (not possible)
+Scenario 2:  int, double, bool, char ----> String
+
+
+Packages
+-------
+built-in packages
+user defined packages
+
+sub packages
+
+Access modifiers
+---------
+public - -directly access all varaibles & methods everywhere
+protected - accessible outside of package through inheritance
+default - only within the package
+private -  access only within the class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
